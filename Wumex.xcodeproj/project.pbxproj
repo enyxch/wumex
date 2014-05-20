@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB840AE6192B60C500710775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB840AE5192B60C500710775 /* Foundation.framework */; };
+		DB840AE8192B60C500710775 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB840AE7192B60C500710775 /* CoreGraphics.framework */; };
+		DB840AEA192B60C500710775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB840AE9192B60C500710775 /* UIKit.framework */; };
+		DB840AF0192B60C500710775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB840AEE192B60C500710775 /* InfoPlist.strings */; };
+		DB840AF2192B60C500710775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB840AF1192B60C500710775 /* main.m */; };
+		DB840AF6192B60C500710775 /* WUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB840AF5192B60C500710775 /* WUAppDelegate.m */; };
+		DB840AF9192B60C500710775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB840AF7192B60C500710775 /* Main.storyboard */; };
+		DB840AFC192B60C500710775 /* WUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB840AFB192B60C500710775 /* WUViewController.m */; };
+		DB840AFE192B60C500710775 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB840AFD192B60C500710775 /* Images.xcassets */; };
+		DB840B05192B60C500710775 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB840B04192B60C500710775 /* XCTest.framework */; };
+		DB840B06192B60C500710775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB840AE5192B60C500710775 /* Foundation.framework */; };
+		DB840B07192B60C500710775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB840AE9192B60C500710775 /* UIKit.framework */; };
+		DB840B0F192B60C500710775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB840B0D192B60C500710775 /* InfoPlist.strings */; };
+		DB840B11192B60C500710775 /* WumexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB840B10192B60C500710775 /* WumexTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB840B08192B60C500710775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB840ADA192B60C500710775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB840AE1192B60C500710775;
+			remoteInfo = Wumex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB840AE2192B60C500710775 /* Wumex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wumex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB840AE5192B60C500710775 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB840AE7192B60C500710775 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB840AE9192B60C500710775 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB840AED192B60C500710775 /* Wumex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wumex-Info.plist"; sourceTree = "<group>"; };
+		DB840AEF192B60C500710775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB840AF1192B60C500710775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB840AF3192B60C500710775 /* Wumex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wumex-Prefix.pch"; sourceTree = "<group>"; };
+		DB840AF4192B60C500710775 /* WUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUAppDelegate.h; sourceTree = "<group>"; };
+		DB840AF5192B60C500710775 /* WUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUAppDelegate.m; sourceTree = "<group>"; };
+		DB840AF8192B60C500710775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB840AFA192B60C500710775 /* WUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUViewController.h; sourceTree = "<group>"; };
+		DB840AFB192B60C500710775 /* WUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUViewController.m; sourceTree = "<group>"; };
+		DB840AFD192B60C500710775 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB840B03192B60C500710775 /* WumexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WumexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB840B04192B60C500710775 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB840B0C192B60C500710775 /* WumexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WumexTests-Info.plist"; sourceTree = "<group>"; };
+		DB840B0E192B60C500710775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB840B10192B60C500710775 /* WumexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WumexTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB840ADF192B60C500710775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB840AE8192B60C500710775 /* CoreGraphics.framework in Frameworks */,
+				DB840AEA192B60C500710775 /* UIKit.framework in Frameworks */,
+				DB840AE6192B60C500710775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB840B00192B60C500710775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB840B05192B60C500710775 /* XCTest.framework in Frameworks */,
+				DB840B07192B60C500710775 /* UIKit.framework in Frameworks */,
+				DB840B06192B60C500710775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB840AD9192B60C500710775 = {
+			isa = PBXGroup;
+			children = (
+				DB840AEB192B60C500710775 /* Wumex */,
+				DB840B0A192B60C500710775 /* WumexTests */,
+				DB840AE4192B60C500710775 /* Frameworks */,
+				DB840AE3192B60C500710775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB840AE3192B60C500710775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB840AE2192B60C500710775 /* Wumex.app */,
+				DB840B03192B60C500710775 /* WumexTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB840AE4192B60C500710775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB840AE5192B60C500710775 /* Foundation.framework */,
+				DB840AE7192B60C500710775 /* CoreGraphics.framework */,
+				DB840AE9192B60C500710775 /* UIKit.framework */,
+				DB840B04192B60C500710775 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB840AEB192B60C500710775 /* Wumex */ = {
+			isa = PBXGroup;
+			children = (
+				DB840AF4192B60C500710775 /* WUAppDelegate.h */,
+				DB840AF5192B60C500710775 /* WUAppDelegate.m */,
+				DB840AF7192B60C500710775 /* Main.storyboard */,
+				DB840AFA192B60C500710775 /* WUViewController.h */,
+				DB840AFB192B60C500710775 /* WUViewController.m */,
+				DB840AFD192B60C500710775 /* Images.xcassets */,
+				DB840AEC192B60C500710775 /* Supporting Files */,
+			);
+			path = Wumex;
+			sourceTree = "<group>";
+		};
+		DB840AEC192B60C500710775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB840AED192B60C500710775 /* Wumex-Info.plist */,
+				DB840AEE192B60C500710775 /* InfoPlist.strings */,
+				DB840AF1192B60C500710775 /* main.m */,
+				DB840AF3192B60C500710775 /* Wumex-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB840B0A192B60C500710775 /* WumexTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB840B10192B60C500710775 /* WumexTests.m */,
+				DB840B0B192B60C500710775 /* Supporting Files */,
+			);
+			path = WumexTests;
+			sourceTree = "<group>";
+		};
+		DB840B0B192B60C500710775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB840B0C192B60C500710775 /* WumexTests-Info.plist */,
+				DB840B0D192B60C500710775 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB840AE1192B60C500710775 /* Wumex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB840B14192B60C500710775 /* Build configuration list for PBXNativeTarget "Wumex" */;
+			buildPhases = (
+				DB840ADE192B60C500710775 /* Sources */,
+				DB840ADF192B60C500710775 /* Frameworks */,
+				DB840AE0192B60C500710775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wumex;
+			productName = Wumex;
+			productReference = DB840AE2192B60C500710775 /* Wumex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB840B02192B60C500710775 /* WumexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB840B17192B60C500710775 /* Build configuration list for PBXNativeTarget "WumexTests" */;
+			buildPhases = (
+				DB840AFF192B60C500710775 /* Sources */,
+				DB840B00192B60C500710775 /* Frameworks */,
+				DB840B01192B60C500710775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB840B09192B60C500710775 /* PBXTargetDependency */,
+			);
+			name = WumexTests;
+			productName = WumexTests;
+			productReference = DB840B03192B60C500710775 /* WumexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB840ADA192B60C500710775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicolas Bonnet";
+				TargetAttributes = {
+					DB840B02192B60C500710775 = {
+						TestTargetID = DB840AE1192B60C500710775;
+					};
+				};
+			};
+			buildConfigurationList = DB840ADD192B60C500710775 /* Build configuration list for PBXProject "Wumex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB840AD9192B60C500710775;
+			productRefGroup = DB840AE3192B60C500710775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB840AE1192B60C500710775 /* Wumex */,
+				DB840B02192B60C500710775 /* WumexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB840AE0192B60C500710775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB840AFE192B60C500710775 /* Images.xcassets in Resources */,
+				DB840AF0192B60C500710775 /* InfoPlist.strings in Resources */,
+				DB840AF9192B60C500710775 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB840B01192B60C500710775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB840B0F192B60C500710775 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB840ADE192B60C500710775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB840AF6192B60C500710775 /* WUAppDelegate.m in Sources */,
+				DB840AF2192B60C500710775 /* main.m in Sources */,
+				DB840AFC192B60C500710775 /* WUViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB840AFF192B60C500710775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB840B11192B60C500710775 /* WumexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB840B09192B60C500710775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB840AE1192B60C500710775 /* Wumex */;
+			targetProxy = DB840B08192B60C500710775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB840AEE192B60C500710775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB840AEF192B60C500710775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB840AF7192B60C500710775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB840AF8192B60C500710775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB840B0D192B60C500710775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB840B0E192B60C500710775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB840B12192B60C500710775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB840B13192B60C500710775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB840B15192B60C500710775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wumex/Wumex-Prefix.pch";
+				INFOPLIST_FILE = "Wumex/Wumex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB840B16192B60C500710775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wumex/Wumex-Prefix.pch";
+				INFOPLIST_FILE = "Wumex/Wumex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB840B18192B60C500710775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wumex.app/Wumex";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wumex/Wumex-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WumexTests/WumexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB840B19192B60C500710775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wumex.app/Wumex";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wumex/Wumex-Prefix.pch";
+				INFOPLIST_FILE = "WumexTests/WumexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB840ADD192B60C500710775 /* Build configuration list for PBXProject "Wumex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB840B12192B60C500710775 /* Debug */,
+				DB840B13192B60C500710775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB840B14192B60C500710775 /* Build configuration list for PBXNativeTarget "Wumex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB840B15192B60C500710775 /* Debug */,
+				DB840B16192B60C500710775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB840B17192B60C500710775 /* Build configuration list for PBXNativeTarget "WumexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB840B18192B60C500710775 /* Debug */,
+				DB840B19192B60C500710775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB840ADA192B60C500710775 /* Project object */;
+}
