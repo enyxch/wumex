@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TaskDateViewCell" rowHeight="22" id="KGk-i7-Jjw" customClass="TaskDateViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="22"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="21"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vN-G5-DXB">
+                        <rect key="frame" x="10" y="0.0" width="300" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3LK-V2-XVN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="UJc-LD-PFn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4vN-G5-DXB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="0KI-o5-41W"/>
+                    <constraint firstItem="3LK-V2-XVN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2SE-FI-LwY"/>
+                    <constraint firstItem="3LK-V2-XVN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6Sr-lp-dsR"/>
+                    <constraint firstAttribute="trailing" secondItem="4vN-G5-DXB" secondAttribute="trailing" constant="10" id="LvO-lt-at9"/>
+                    <constraint firstItem="4vN-G5-DXB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="R18-wg-4n3"/>
+                    <constraint firstAttribute="trailing" secondItem="3LK-V2-XVN" secondAttribute="trailing" id="iHj-gs-SnH"/>
+                    <constraint firstAttribute="bottom" secondItem="4vN-G5-DXB" secondAttribute="bottom" id="uLQ-aF-d2y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.94509803920000002" green="0.50980392159999999" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="labelDate" destination="4vN-G5-DXB" id="0GF-va-IWi"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

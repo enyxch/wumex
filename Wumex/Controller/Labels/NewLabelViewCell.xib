@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewLabelViewCell" id="KGk-i7-Jjw" customClass="NewLabelViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ap-Ee-yQt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLV-Yc-TKz">
+                                <rect key="frame" x="20" y="7" width="220" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="zLf-1d-Ala"/>
+                                </constraints>
+                                <color key="textColor" red="0.33725490200000002" green="0.33725490200000002" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afb-M9-22z">
+                                <rect key="frame" x="254" y="7" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AJz-tU-207"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="BAN-xQ-Q9J"/>
+                                </constraints>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" red="0.33725490200000002" green="0.33725490200000002" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="9iL-UT-OpB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="CO7-Tt-hmS"/>
+                            <constraint firstAttribute="centerY" secondItem="afb-M9-22z" secondAttribute="centerY" id="MtD-ja-02H"/>
+                            <constraint firstAttribute="centerY" secondItem="dLV-Yc-TKz" secondAttribute="centerY" id="XWm-G0-qxy"/>
+                            <constraint firstItem="afb-M9-22z" firstAttribute="leading" secondItem="dLV-Yc-TKz" secondAttribute="trailing" constant="14" id="eUc-1L-p11"/>
+                            <constraint firstItem="dLV-Yc-TKz" firstAttribute="leading" secondItem="9ap-Ee-yQt" secondAttribute="leading" constant="20" id="h1s-14-TYS"/>
+                            <constraint firstAttribute="trailing" secondItem="afb-M9-22z" secondAttribute="trailing" constant="20" id="zzz-YF-7Ic"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uoL-0g-LfC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_20" translatesAutoresizingMaskIntoConstraints="NO" id="r2F-y4-e0s">
+                                <rect key="frame" x="12" y="7" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3uk-Hd-ZSN"/>
+                                    <constraint firstAttribute="width" constant="20" id="jRJ-2K-8Pe"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4V-zz-Pux">
+                                <rect key="frame" x="40" y="0.0" width="260" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="9JQ-eV-BNo"/>
+                            <constraint firstAttribute="centerY" secondItem="r2F-y4-e0s" secondAttribute="centerY" id="9q6-Eu-Ztw"/>
+                            <constraint firstItem="v4V-zz-Pux" firstAttribute="top" secondItem="uoL-0g-LfC" secondAttribute="top" id="UEV-Ms-61L"/>
+                            <constraint firstItem="v4V-zz-Pux" firstAttribute="leading" secondItem="r2F-y4-e0s" secondAttribute="trailing" constant="8" id="Uea-Lm-GBd"/>
+                            <constraint firstAttribute="bottom" secondItem="v4V-zz-Pux" secondAttribute="bottom" id="mPG-oO-IBb"/>
+                            <constraint firstItem="r2F-y4-e0s" firstAttribute="leading" secondItem="uoL-0g-LfC" secondAttribute="leading" constant="12" id="vxy-cD-CTj"/>
+                            <constraint firstAttribute="trailing" secondItem="v4V-zz-Pux" secondAttribute="trailing" constant="20" id="zru-cQ-Vf3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="uoL-0g-LfC" secondAttribute="trailing" id="6k3-sO-wyJ"/>
+                    <constraint firstAttribute="bottom" secondItem="9ap-Ee-yQt" secondAttribute="bottom" id="8Cj-Br-eEQ"/>
+                    <constraint firstAttribute="trailing" secondItem="9ap-Ee-yQt" secondAttribute="trailing" id="Lwp-wF-EdL"/>
+                    <constraint firstItem="9ap-Ee-yQt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OsQ-5H-k2T"/>
+                    <constraint firstItem="uoL-0g-LfC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hkl-G7-e3R"/>
+                    <constraint firstItem="uoL-0g-LfC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="s5Z-8W-04b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buttonAdd" destination="afb-M9-22z" id="yIL-dJ-u3D"/>
+                <outlet property="constraintBottomViewTextField" destination="8Cj-Br-eEQ" id="8n2-JW-0ob"/>
+                <outlet property="constraintTopViewNew" destination="s5Z-8W-04b" id="MN1-Z7-Xyi"/>
+                <outlet property="imageView" destination="r2F-y4-e0s" id="mgL-NX-3CY"/>
+                <outlet property="labelText" destination="v4V-zz-Pux" id="w8n-Hp-Rqn"/>
+                <outlet property="textField" destination="dLV-Yc-TKz" id="UEM-LS-0IJ"/>
+                <outlet property="viewNew" destination="uoL-0g-LfC" id="laR-Rq-x8Q"/>
+                <outlet property="viewTextField" destination="9ap-Ee-yQt" id="H7e-fU-SMW"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="add_20" width="20" height="20"/>
+    </resources>
+</document>

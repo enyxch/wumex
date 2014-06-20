@@ -12,5 +12,11 @@
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import "UIHelper.h"
+#import "Logger.h"
+#import "Colours.h"
+#import "WUProgressIndicator.h"
+#import "SIAlertView.h"
 #endif
